@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #1ebfc1;
+    --title-color: #0d1111;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+/* ======================== COMMON =========================== */
+.content {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: calc(100% - 48px);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ======================== HEADER =========================== */
+.header__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+
+.header__list {
+    display: flex;
+    gap: 39px;
+}
+
+.header__list a {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #494949;
+}
+
+.header__list a:hover {
+    text-shadow: 0.5px 0 0 #494949;
+}
+
+.header__cta a {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #494949;
+    padding: 12px 24px;
+    min-width: 108px;
+}
+
+.header__cta a:hover {
+    text-shadow: 0.5px 0 0 #494949;
+}
+
+.header__cta .cta__Sign-up {
+    text-shadow: 0.5px 0 0 var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 6px;
+    color: var(--primary-color);
+}
+
+.header__cta .cta__Sign-up:hover {
+    text-shadow: 1px 0 0 var(--primary-color);
+    box-shadow: 2px 2px #666665;
+}
+
+/* ======================== HERO =========================== */
+.hero-page {
+    display: flex;
+    margin-top: 50px;
+}
+
+.hero-page__info {
+    width: 39%;
+    margin-top: 93px;
+}
+
+.hero__top-info {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #767e7e;
+}
+
+.hero__title-info {
+    margin-top: 18px;
+    font-weight: 700;
+    font-size: 6.2rem;
+    color: var(--title-color);
+}
+
+.hero__desc-info {
+    margin-top: 46px;
+    width: 374px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 32px;
+    color: #9da6a5;
+}
