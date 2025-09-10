@@ -743,3 +743,102 @@ a {
     bottom: 29px;
     right: 32px;
 }
+/* =======================CTA ADMIT ========================== */
+.cta-admit-page {
+    margin-top: 130px;
+    background: #def6f5;
+}
+
+.cta-admit-page .content {
+    padding: 76px 0 88px;
+    display: flex;
+    align-items: center;
+}
+
+.cta-admit__title {
+    font-weight: 700;
+    font-size: 42px;
+    color: var(--title-color);
+}
+
+.cta-admit__desc {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #767e7e;
+}
+
+.cta-admit__button {
+    margin-left: 451px;
+    min-width: 186px;
+    height: 68px;
+    border-radius: 14px;
+    background: var(--primary-color);
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-admit__button:hover {
+    opacity: 0.8;
+    box-shadow: 4px 4px #666665;
+}
+/* =============================FOOTER ================================= */
+.footer-page {
+    margin-top: 131px;
+}
+
+.footer-page__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-page__group-item {
+    display: flex;
+    gap: 144px;
+}
+
+.footer__item-title {
+    font-weight: 500;
+    font-size: 18px;
+    color: #2e2e2e;
+}
+
+.footer__item a {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    color: #535353;
+    margin-top: 25px;
+}
+
+.footer__item p:hover {
+    text-decoration: underline;
+}
+
+.footer-social a {
+    display: flex;
+    margin-top: 18px;
+}
+
+.footer-social p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #535353;
+    margin-left: 9px;
+}
+
+.footer-page__bot {
+    margin: 80px 0 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__copyright {
+    font-weight: 400;
+    font-size: 18px;
+    color: #b0b5b4;
+}
